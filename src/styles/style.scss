@@ -1,0 +1,50 @@
+@use "vars" as *;
+@use "fonts" as *;
+@use "transitions" as *;
+@use "helpers" as *;
+@use "buttons" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  &:before,
+  &:after {
+    box-sizing: inherit;
+  }
+}
+
+html,
+body {
+  overflow: hidden;
+}
+
+html {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+body {
+  color: #000;
+  font-family: Monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.experience {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: var(--vh);
+  z-index: var(--z-canvas);
+}
+
+.webgl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  outline: none;
+}
