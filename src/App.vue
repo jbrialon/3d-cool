@@ -5,7 +5,7 @@ const experience = new Experience();
 </script>
 
 <template>
-  <div class="container">hello</div>
+  <div class="container"></div>
 </template>
 
 <style lang="scss">

@@ -20,7 +20,7 @@ export default class World {
       this.background = new Background();
       // this.plane = new Plane();
       // this.tile = new Tile();
-      this.project = new Project();
+      // this.project = new Project();
       // this.environment = new Environment();
 
       // Show Experience
